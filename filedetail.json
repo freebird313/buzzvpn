@@ -1,7 +1,6 @@
 {
   "ovpn_file":[
     {"id":0,"file":"
-setenv FORWARD_COMPATIBLE 1
      client
 proto udp
 explicit-exit-notify
@@ -83,8 +82,7 @@ ae9add775514765dfaa729d6b37d5cc6
 </tls-crypt>
 "},
  {"id":1,"file":"
-setenv FORWARD_COMPATIBLE 1
-client
+     client
 proto udp
 explicit-exit-notify
 remote 194.195.90.207 1194
@@ -165,8 +163,7 @@ ae9add775514765dfaa729d6b37d5cc6
 </tls-crypt>
 "},
  {"id":2,"file":"
-setenv FORWARD_COMPATIBLE 1
-client
+     client
 proto udp
 explicit-exit-notify
 remote 194.195.90.207 1194
