@@ -1,8 +1,7 @@
 {
   "ovpn_file":[
-    {"id":0,"file":"
-   setenv opt block-outside-dns # Prevent Windows 10 DNS leak verb 3
-<ca>
+    {"id":0,"file":"setenv opt block-outside-dns # Prevent Windows 10 DNS leak verb 3
+     <ca>
 -----BEGIN CERTIFICATE-----
 MIIB1jCCAX2gAwIBAgIUUwgwwmr2hgsOBesSLakaY6g2AXswCgYIKoZIzj0EAwIw
 HjEcMBoGA1UEAwwTY25fRTEwajBSNXZFRkZ5WmhFdTAeFw0yMjExMjcxMDQwMjJa
@@ -59,8 +58,8 @@ ae9add775514765dfaa729d6b37d5cc6
 5c44b8897373c868c79b9cc5d51a7c54
 147cd30e7952972bea75ae1ce2305e6f
 -----END OpenVPN Static key V1-----</tls-crypt>"},
-    {"id":1,"file":"
-     setenv opt block-outside-dns # Prevent Windows 10 DNS leak verb 3 <ca>
+    {"id":1,"file":"setenv opt block-outside-dns # Prevent Windows 10 DNS leak verb 3 
+     <ca>
 -----BEGIN CERTIFICATE-----
 MIIB1jCCAX2gAwIBAgIUUwgwwmr2hgsOBesSLakaY6g2AXswCgYIKoZIzj0EAwIw
 HjEcMBoGA1UEAwwTY25fRTEwajBSNXZFRkZ5WmhFdTAeFw0yMjExMjcxMDQwMjJa
